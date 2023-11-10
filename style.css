@@ -213,6 +213,10 @@ p {
     flex-direction: column;
   }
 
+  .nav_container_header {
+    justify-content: center;
+  }
+
   .subtitle {
     font-size: 32px;
     line-height: 32px;
