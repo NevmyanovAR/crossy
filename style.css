@@ -207,7 +207,7 @@ p {
   background-color: #E6E8EC66;
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 425px) {
   .header_container {
     padding: 24px;
     flex-direction: column;
