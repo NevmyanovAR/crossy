@@ -100,7 +100,8 @@
 
 @media screen and (max-width: 425px) {
     .content_shoe {
-        padding: 0 32px;
+        width:auto;
+        padding: 0 16px;
     }
 
     .shoe {
