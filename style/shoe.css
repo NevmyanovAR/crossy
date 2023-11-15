@@ -1,0 +1,137 @@
+.main_shoe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.content_shoe {
+    max-width: 1161px;
+    width: 100%;
+    align-items: center;  
+    display: flex;
+}
+
+.shoe {
+    display: flex;
+    flex-direction: column;
+    max-width: 1161px;
+    width: 100%;
+    flex-wrap: wrap;
+    /* gap: 32px; */
+    border-radius: 50px;
+    margin: 0 auto;
+    padding: 48px;
+    background: #FFFFFF;
+}
+
+.shoe_img {
+    max-height: 600px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.shoe_wrapper {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+
+.shoe_title {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 48px */
+}
+
+.shoe_subtitle {
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    /* 36px */
+
+}
+
+.shoe_info {
+    display: flex;
+    gap: 32px;
+}
+
+.shoe_text {
+    flex: 1;
+    color: var(--black, #121723);
+    font-family: Anonymous Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 140% */
+
+}
+
+.hr {
+    margin-top: 40px;
+}
+
+.shoe_about_parametr {
+    flex: 1;
+}
+
+.shoe_about_title {
+    font-family: Anonymous Pro;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+    .content_shoe {
+        padding: 0 32px;
+    }
+
+    .shoe {
+        padding: 24px;
+    }
+
+    .shoe_info {
+        flex-direction: column;
+    }
+
+    .shoe_title {
+        font-size: 32px;
+    }
+
+    .shoe_subtitle {
+        font-size: 20px;
+    }
+
+    .shoe_text {
+        font-size: 16px;
+    }
+
+    .shoe_about_title {
+        font-size: 24px;
+    }
+
+    .info_title {
+        font-size: 16px;
+    }
+
+    .info_description {
+        font-size: 16px;
+    }
+}
