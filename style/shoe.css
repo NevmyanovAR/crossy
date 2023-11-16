@@ -26,15 +26,12 @@
 }
 
 .shoe_img {
-    max-height: 600px;
     width: 100%;
     object-fit: contain;
 }
 
 .shoe_wrapper {
     flex-direction: column;
-    margin: 0;
-    padding: 0;
 }
 
 
