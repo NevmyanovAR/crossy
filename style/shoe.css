@@ -29,12 +29,7 @@
     width: 100%;
     object-fit: contain;
 }
-
-.shoe_wrapper {
-    flex-direction: column;
-}
-
-
+    
 .shoe_title {
     color: var(--black, #121723);
     font-family: Anonymous Pro;
