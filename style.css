@@ -238,7 +238,7 @@ p {
 
 .footer_logo {
   color: var(--white, #FFF);
-  font-family: Russo One;
+  font-family: "Anonymous Pro", sans-serif;
   font-size: 31px;
   font-style: normal;
   font-weight: 400;
@@ -270,14 +270,7 @@ p {
   line-height: normal;
 }
 
-.last_logo {
-  color: #A1A6B4;
-  font-family: "Anonymous Pro", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
+
 
 .tire_down {
   border: auto;
@@ -290,6 +283,15 @@ p {
   background-color: #E6E8EC66;
 }
 
+.footer .last_logo>p {
+  color: #A1A6B4;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+}
 
 @media screen and (max-width: 425px) {
   .header_container {
